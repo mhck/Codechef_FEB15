@@ -45,10 +45,6 @@ namespace Codechef_FEB15
                     {
                         replacements[i] += 1;
                     }
-                    if (s.Substring(s.Length - 1).Equals(s.Substring(0, 1)))
-                    {
-                        replacements[i] += 1;
-                    }
                 }
                 if (s.Length == 1 && (s.Substring(0, 1).Equals(PLUS) || s.Substring(0, 1).Equals(MINUS)))
                     replacements[i] += 1;
