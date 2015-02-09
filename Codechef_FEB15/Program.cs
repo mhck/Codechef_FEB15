@@ -19,8 +19,8 @@ namespace Codechef_FEB15
      **/
     class Program
     {
-        private const string FIRST = "+";
-        private const string SECOND = "-";
+        private const string PLUS = "+";
+        private const string MINUS = "-";
 
         private static string current = "";
         private static int[] replacements;
@@ -34,10 +34,10 @@ namespace Codechef_FEB15
                 string s = Console.ReadLine();
                 if (s.Length <= 0) continue;
                 string first = s.Substring(i, 1);
-                if (first.Equals(FIRST))
-                    current = FIRST;
-                else if (first.Equals(SECOND))
-                    current = SECOND;
+                if (first.Equals(PLUS))
+                    current = PLUS;
+                else if (first.Equals(MINUS))
+                    current = MINUS;
                 for (int j = 1; j < s.Length; j++)
                 {
                     current = NextInput();
@@ -45,7 +45,13 @@ namespace Codechef_FEB15
                     {
                         replacements[i] += 1;
                     }
+                    if (s.Substring(s.Length - 1).Equals(s.Substring(0, 1)))
+                    {
+                        replacements[i] += 1;
+                    }
                 }
+                if (s.Length == 1 && (s.Substring(0, 1).Equals(PLUS) || s.Substring(0, 1).Equals(MINUS)))
+                    replacements[i] += 1;
             }
 
             foreach (int rep in replacements)
@@ -56,7 +62,7 @@ namespace Codechef_FEB15
 
         public static string NextInput()
         {
-            return current == FIRST ? SECOND : FIRST;
+            return current == PLUS ? MINUS : PLUS;
         }
     }
 }
