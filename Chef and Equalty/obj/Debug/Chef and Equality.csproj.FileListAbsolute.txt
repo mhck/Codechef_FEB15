@@ -1,0 +1,6 @@
+c:\users\mhck\documents\visual studio 2013\Projects\Codechef_FEB15\Chef and Equalty\obj\Debug\Chef and Equality.csprojResolveAssemblyReference.cache
+c:\users\mhck\documents\visual studio 2013\Projects\Codechef_FEB15\Chef and Equalty\bin\Debug\Chef and Equalty.exe.config
+c:\users\mhck\documents\visual studio 2013\Projects\Codechef_FEB15\Chef and Equalty\bin\Debug\Chef and Equalty.exe
+c:\users\mhck\documents\visual studio 2013\Projects\Codechef_FEB15\Chef and Equalty\bin\Debug\Chef and Equalty.pdb
+c:\users\mhck\documents\visual studio 2013\Projects\Codechef_FEB15\Chef and Equalty\obj\Debug\Chef and Equalty.exe
+c:\users\mhck\documents\visual studio 2013\Projects\Codechef_FEB15\Chef and Equalty\obj\Debug\Chef and Equalty.pdb
