@@ -1,3 +1,9 @@
 c:\users\mhck\documents\visual studio 2013\Projects\Codechef_FEB15\Codechef_FEB15\bin\Debug\Codechef_FEB15.exe.config
 c:\users\mhck\documents\visual studio 2013\Projects\Codechef_FEB15\Codechef_FEB15\obj\Debug\Codechef_FEB15.exe
 c:\users\mhck\documents\visual studio 2013\Projects\Codechef_FEB15\Codechef_FEB15\obj\Debug\Codechef_FEB15.pdb
+C:\Users\Mads\Documents\GitHub\Codechef_FEB15\Codechef_FEB15\bin\Debug\Codechef_FEB15.exe.config
+C:\Users\Mads\Documents\GitHub\Codechef_FEB15\Codechef_FEB15\obj\Debug\Codechef_FEB15.exe
+C:\Users\Mads\Documents\GitHub\Codechef_FEB15\Codechef_FEB15\obj\Debug\Codechef_FEB15.pdb
+C:\Users\Mads\Documents\GitHub\Codechef_FEB15\Codechef_FEB15\bin\Debug\Codechef_FEB15.exe
+C:\Users\Mads\Documents\GitHub\Codechef_FEB15\Codechef_FEB15\bin\Debug\Codechef_FEB15.pdb
+C:\Users\Mads\Documents\GitHub\Codechef_FEB15\Codechef_FEB15\obj\Debug\Chef and Chain.csprojResolveAssemblyReference.cache

@@ -27,20 +27,17 @@ namespace Codechef_FEB15
 
         static void Main(string[] args)
         {
-            int cases = Int32.Parse(Console.ReadLine());
-            replacements = new int[cases];
-            for (int i = 0; i < cases; i++)
+            int t = Int32.Parse(Console.ReadLine());
+            replacements = new int[t];
+            for (int i = 0; i < t; i++)
             {
                 string s = Console.ReadLine();
-                if (s.Substring(0, 1).Equals(FIRST))
-                {
+                if (s.Length <= 0) continue;
+                string first = s.Substring(i, 1);
+                if (first.Equals(FIRST))
                     current = FIRST;
-                }
-                else if (s.Substring(0, 1).Equals(SECOND))
-                {
+                else if (first.Equals(SECOND))
                     current = SECOND;
-                }
-                if (s.Length == 0) break;
                 for (int j = 1; j < s.Length; j++)
                 {
                     current = NextInput();
@@ -55,7 +52,6 @@ namespace Codechef_FEB15
             {
                 Console.WriteLine(rep);
             }
-            Console.ReadLine(); // blocking
         }
 
         public static string NextInput()
